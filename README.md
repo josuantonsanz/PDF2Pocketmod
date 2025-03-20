@@ -1,6 +1,11 @@
-# My CLI App
+# PDF 2 Pocketmod
 
-A simple command-line application template built with Click and UV.
+A command-line app to convert a normal pdf page to a pocketmod page (8 pages in one page).
+
+## Usage
+
+
+
 
 ## Installation
 

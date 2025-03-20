@@ -3,20 +3,21 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "my-cli-app"
+name = "pdf2pocketmod"
 version = "0.1.0"
 description = "A simple command-line application"
 readme = "README.md"
 requires-python = ">=3.8"
 authors = [
-    {name = "Your Name"}
+    {name = "Josu Antón"}
 ]
 dependencies = [
     "click",
+    "pymupdf>=1.24.11",
 ]
 
 [project.scripts]
-my-cli = "my_cli_app.cli:cli"
+pdf2pocketmod = "pdf2pocketmod.cli:cli"
 
 [tool.uv]
 package = true
