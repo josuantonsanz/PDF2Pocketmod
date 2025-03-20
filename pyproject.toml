@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my-cli-app"
+version = "0.1.0"
+description = "A simple command-line application"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    {name = "Your Name"}
+]
+dependencies = [
+    "click",
+]
+
+[project.scripts]
+my-cli = "my_cli_app.cli:cli"
+
+[tool.uv]
+package = true
