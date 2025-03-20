@@ -4,10 +4,16 @@ A command-line app to convert a normal pdf page to a pocketmod page (8 pages in 
 
 ## Usage
 
+pdf2pocketmod create input.pdf -o output.pdf -s start_page
 
+Options:
+  -o, --output PATH
+  -s, --start-page INTEGER  The page to start from.
 
 
 ## Installation
+
+If you want to install the package as a cli tool systemwide, you can use the following command:
 
 `uv pip install -e . --system`
 

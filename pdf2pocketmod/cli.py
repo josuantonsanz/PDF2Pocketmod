@@ -14,7 +14,7 @@ def cli():
 @click.option('--output', '-o', type=click.Path(), default='output.pdf')
 @click.option('--start-page', '-s', type=int, default=0, help='The page to start from.')
 def create(input_pdf, output, start_page):
-    """Say hello to the provided name."""
+    """Create a pocketmod file."""
     # Open the input PDF
     try:
         doc = fitz.open(input_pdf)
